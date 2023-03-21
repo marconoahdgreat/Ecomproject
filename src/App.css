@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+.container1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container5 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*----------CAROUSEL-------*/
+.carousel1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+  width: 100%;
+  height: 230px;
+}
+.carousel2 {
+  width: 50%;
+}
+.carousel3 {
+  width: 50%;
+}
+.carousel1 h1 {
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+.carousel1 Button {
+  margin-left: 100px;
+  background-color: rgb(220, 77, 86);
   color: white;
 }
+.carousel1 Button:hover {
+  background-color: rgb(220, 77, 86);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.carousel1 p {
+  font-size: 9px;
+  width: 70%;
+  margin-left: 100px;
+}
+.carousel1 img {
+  width: 300px;
+  height: 200px;
+  margin-right: 70px;
+}
+.carousel1 img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 900px) {
+  .carousel1 p {
+    margin-left: 50px;
+  }
+  .carousel1 h1 {
+    width: 50%;
 
-.App-link {
-  color: #61dafb;
+    margin-left: 50px;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .carousel1 img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .carousel1 Button {
+    margin-left: 50px;
+  }
+  .container1 {
+    max-width: 90%;
+  }
+  .container5 {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .carousel1 p {
+    display: none;
+  }
+  .carousel2 {
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+    margin-left: -20px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*----------CAROUSEL-------*/
+
+/*----------CARDS-------*/
+.container4 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  margin-top: 20px;
+  height: 100%;
 }
+.cardscss:hover {
+  box-shadow: rgba(0, 0, 0, 0.692) 0px 5px 15px;
+}
+/*----------CARDS-------*/

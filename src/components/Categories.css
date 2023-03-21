@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fcfcfc;
+}
+.CategoryContainer {
+  border-style: ridge;
+  height: 100%;
+}
+.navlinksC ul a {
+  color: black;
+
+  text-decoration: none;
+}
+
+.navlinksC ul {
+  list-style-type: none;
+}
+.navlinksC li:hover {
+  background-color: gray;
+}
