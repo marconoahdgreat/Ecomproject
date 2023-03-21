@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Ecomproject/static/css/main.05f302d6.css",
+    "main.js": "/Ecomproject/static/js/main.cbf9671e.js",
+    "static/media/male2.png": "/Ecomproject/static/media/male2.b8a13e2e7b95629af2c5.png",
+    "static/media/kids.png": "/Ecomproject/static/media/kids.bdd24a55435d15e39168.png",
+    "static/media/female.png": "/Ecomproject/static/media/female.eadde942db626a430abb.png",
+    "static/media/console.png": "/Ecomproject/static/media/console.9ce10538b02274fbdc75.png",
+    "static/media/pngwing.com.png": "/Ecomproject/static/media/pngwing.com.1e62a0a1dfa5572f44cc.png",
+    "static/media/glasses.png": "/Ecomproject/static/media/glasses.1166990506fab9e0bd14.png",
+    "static/media/watch.png": "/Ecomproject/static/media/watch.93ff16ac0227b56dd558.png",
+    "index.html": "/Ecomproject/index.html",
+    "main.05f302d6.css.map": "/Ecomproject/static/css/main.05f302d6.css.map",
+    "main.cbf9671e.js.map": "/Ecomproject/static/js/main.cbf9671e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05f302d6.css",
+    "static/js/main.cbf9671e.js"
+  ]
+}
